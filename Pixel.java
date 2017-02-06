@@ -19,14 +19,4 @@ public class Pixel {
     public String toString() {
         return r + " " + g + " " + b + "\n";
     }
-
-    public static void main(String[] args) {
-        Pixel p = new Pixel();
-        System.out.println(p);
-        Scanner scan = new Scanner(System.in);
-        for (int i = 0; i < 10; i++) {
-            String s = scan.nextLine();
-        }
-    }
-
 }
